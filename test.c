@@ -3,10 +3,10 @@
 #include<time.h>
 #include<math.h>
 
-long double Sigma(float x)
+double Sigma(float x)
 {
     int i = 1;
-    long double sum = 0;
+    double sum = 0;
     for (; i <= 100; i++)
     {
         sum = sum + (pow(x, i) / i);
@@ -17,11 +17,18 @@ int main()
 {
     clock_t a, b;
     float d;
-    long double e;
+    double e;
     scanf("%f", &d);
     a = clock();
     e = 1 + Sigma(d);
-    printf("%Lf", e);
+    int z = 0;
+    while (z < 100)
+    {
+        Sigma(d);
+        z++;
+    }
+    printf("%6.2e", e);
+    sleep(1);
     b = clock();
     printf("\n");
     printf("%f", (((float)(b - a))/CLK_TCK));
