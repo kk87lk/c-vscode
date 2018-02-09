@@ -18,13 +18,15 @@
 
     "clang.cflags": [ // 控制c语言静态检测的参数
         "--target=x86_64-w64-mingw",
-        "-std=c11",
-        "-Wall"
+        "-std=c99",
+        "-Wall",
+        "-I/path/to/my/include/directory" // header files
     ],
     "clang.cxxflags": [ // 控制c++静态检测时的参数
         "--target=x86_64-w64-mingw",
         "-std=c++17",
-        "-Wall"
+        "-Wall",
+        "-I/path/to/my/include/directory" // header files        
     ],
     "clang.completion.enable":false // 效果稍好，但太卡，故关掉
 }
