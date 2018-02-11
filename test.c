@@ -24,7 +24,8 @@ int main()
     int z = 0;
     while (z < 100)
     {
-        Sigma(d);
+        e = 1 + Sigma(d);
+        printf("%6.2e", e);
         z++;
     }
     printf("%6.2e", e);
