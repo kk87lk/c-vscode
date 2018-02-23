@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #define halflen ((sizeof(c)/sizeof(c[0]))/2)
-char c[100000];
-int recurbinary(int array[],int len,int key)
+int c[100000];
+int recurbinary(int *array,int len,int key)
 {
     int low = 0;
     int high = len - 1;
@@ -18,6 +18,7 @@ int recurbinary(int array[],int len,int key)
         else
             high = mid - 1;
     }
+    return -1;
 }
 int main()
 {
@@ -27,8 +28,8 @@ int main()
     }
     int len;
     len = sizeof(c)/sizeof(c[0]);
-    int b,d;
+    int b,d=-1;
     scanf("%d", &b);
-    d = recurbinary(c[], len, b);
+    d = recurbinary(c, len, b);
     printf("%d", d);
 }
