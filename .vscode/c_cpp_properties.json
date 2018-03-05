@@ -5,13 +5,13 @@
             "intelliSenseMode": "clang-x64",
             "includePath": [
                 "${workspaceFolder}",
-                "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
-                "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
-                "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
-                "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
-                "D:/Program Files/LLVM/include",
-                "D:/Program Files/LLVM/x86_64-w64-mingw32/include",
-                "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
+                "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
+                "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
+                "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
+                "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
+                "D:/Program Files/llvm/include",
+                "D:/Program Files/llvm/x86_64-w64-mingw32/include",
+                "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
             ],
             "defines": [
                 "_DEBUG",
@@ -22,13 +22,13 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
-                    "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
-                    "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
-                    "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
-                    "D:/Program Files/LLVM/include",
-                    "D:/Program Files/LLVM/x86_64-w64-mingw32/include",
-                    "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
+                    "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
+                    "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
+                    "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
+                    "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
+                    "D:/Program Files/llvm/include",
+                    "D:/Program Files/llvm/x86_64-w64-mingw32/include",
+                    "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
