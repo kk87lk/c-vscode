@@ -4,9 +4,7 @@
 int c[100000];
 int recurbinary(int *array,int len,int key)
 {
-    int low = 0;
-    int high = len - 1;
-    int mid;
+    int low = 0, high = len - 1, mid;
     while (low <= high)
     {
         mid = (low + high) / 2;
