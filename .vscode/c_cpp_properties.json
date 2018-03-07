@@ -11,7 +11,8 @@
                 "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
                 "D:/Program Files/llvm/include",
                 "D:/Program Files/llvm/x86_64-w64-mingw32/include",
-                "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
+                "D:/Program Files/llvm/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed",
+                "D:/Program Files/LLVM/include/clang-c"
             ],
             "defines": [
                 "_DEBUG",
